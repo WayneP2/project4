@@ -1,0 +1,191 @@
+<html>
+<head>
+<style>
+
+
+body {
+	background-color: red;
+	font: "Verdana", arial, sans-serif;
+    color: white;
+    font-size: 30px;
+	
+} 	
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width:600px) {
+  .column 
+    width: 100%;
+  }
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: gray;
+  float: left;
+  font-size: 12px;
+}
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: left;
+  padding: 20px 22px;
+
+}
+
+li a:hover {
+  background-color: black;
+}
+
+
+
+
+header {
+	background-color: red;
+	border: 4px solid black;
+	text-align: center;
+    color: white;
+    font-family: times;
+    font-size: 14px;
+
+
+    }
+
+h1 {
+	text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family:  Helvetica;
+	background-color: gray;
+}    
+
+h2 {
+	text-align: center;
+    color: black;
+    font-size: 35px;
+    font-family: "Times New Roman", serif;
+	float: center;
+	clear: right;
+} 
+
+h3 {
+	background-color: red;
+	font-family: "Verdana", arial, sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 16px; 
+}
+h4 {
+	background-color: red;
+	font-family: "Verdana", arial, sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 16px; 
+	float: center;
+}
+
+p {
+
+	text-align: center;
+    font-family: "Times New Roman", serif;
+    color: black;
+    font-size: 16px;
+	
+
+}
+p.italic {
+  	font-style: italic;
+	text-align: center;
+    color: black;
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+	
+	
+}
+ol.b {
+	list-style-type: upper-roman;
+	float: left;
+	clear: left;
+	border: 2px solid black;
+	padding: 35px;
+	margin: 10px;
+	font-size: 18px;
+	text-align: left;
+}
+ul.c {
+	margin: 5px;
+	list-style-type: square;
+	float: right;
+	background-color: white;
+	font-size: 18px;
+	clear:left;
+	border: 2px solid black;
+	padding: 50px;
+}	
+
+	
+
+
+
+
+a:link {
+	color: white;
+}
+
+a:visited {
+	color: blue;
+}
+a:hover { 
+	color: white
+}
+.topnav a:hover {
+  background-color: blue;
+  color: black;
+}
+
+#schedule {
+  font-family: Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#schedule td, #schedule th {
+  border: 2px solid black;
+  text-align: center;
+}
+
+#schedule tr:nth-child(even){background-color: red;}
+
+
+#schedule th {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  background-color: red;
+  color: white;
+}
+	
+footer {
+	text-align: center; 
+	font-family: "Verdana", sans-serif, times;
+	position: fixed;
+	bottom: 0;
+}
+</style>
+</head>
+<html>
